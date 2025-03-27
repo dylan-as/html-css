@@ -1,20 +1,37 @@
-/** 
-    ---antique white: #FAEBD7
-    ---seaweed green: #354A21
-    ---eerie black: #1B2021
-    ---cambridge blue: 8AA39B
-    ---french gray: #CED3DC
+/**
+    --seaweedgreen: #354A21
+    --eerieblack: #1B2021
+    --cambridgeblue: #8AA39B
+    --frenchgray: #CED3DC
 **/
 
+
 body {
-    background-color: antiquewhite;
+    background-color: #CED3DC;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 nav {
+    background-color: #8AA39B;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav > ul {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+nav > ul > li {
 
 }
 
 #heading {
+    color: #1B2021;
+    font-size: 96px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    font-weight: 500;
+
 
 }
 
@@ -26,23 +43,42 @@ nav {
 
 }
 
-nav > ul {
 
-}
-
-nav > ul > li {
-
-
-}
 
 h1 {
+
+    color: #1B2021;
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 
 }
 
 h2 {
 
+    color: #354A21;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+
 }
 
 h3 {
-    
+
+    color: #1B2021;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+
+}
+
+strong {
+
+}
+
+italics {
+
 }
