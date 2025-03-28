@@ -9,6 +9,7 @@
 body {
     background-color: #CED3DC;
     font-family: 'Courier New', Courier, monospace;
+    color: #1B2021
 }
 
 nav {
@@ -28,11 +29,9 @@ nav > ul > li {
 #heading {
     color: #1B2021;
     font-size: 96px;
+    font-weight: 600;
     line-height: 150%;
     letter-spacing: 5px;
-    font-weight: 500;
-
-
 }
 
 .description {
