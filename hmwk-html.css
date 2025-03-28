@@ -76,8 +76,25 @@ h3 {
 
 strong {
 
+    color:#1B2021;
+    background-color: #354A21;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace
+    
+
 }
 
-italics {
+i {
+    color:#1B2021;
+    background-color: #354A21;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace
+    
 
 }
+
+{cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;} 
+
+/* sourced from https://www.cursors-4u.com on 3.28.2025 :) */
