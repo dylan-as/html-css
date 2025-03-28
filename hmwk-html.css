@@ -47,7 +47,7 @@ nav > ul > li {
 h1 {
 
     color: #1B2021;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 150%;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -57,7 +57,7 @@ h1 {
 h2 {
 
     color: #354A21;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 150%;
     letter-spacing: 5px;
     text-transform: capitalize;
@@ -67,7 +67,7 @@ h2 {
 h3 {
 
     color: #1B2021;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 150%;
     letter-spacing: 5px;
     text-transform: lowercase;
@@ -77,24 +77,30 @@ h3 {
 strong {
 
     color:#1B2021;
-    background-color: #354A21;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: 'Courier New', Courier, monospace
-    
+    background-color: #8AA39B;
+    font-size: 20px;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family:'Courier New', Courier, monospace
 
 }
 
 i {
     color:#1B2021;
-    background-color: #354A21;
+    background-color: #8AA39B;
     font-size: 15px;
     font-weight: 300;
     font-family: 'Courier New', Courier, monospace
-    
 
 }
 
+/* begin cursor info! */
+
 * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;} 
 
-/* code & .cur file sourced from https://www.cursors-4u.com on 3.28.2025 :) */
+/* code & .cur file sourced from https://www.cursors-4u.com on 3.28.2025 :) 
+I also used this tutorial from tumblr (ofc it's from tumblr): 
+https://www.tumblr.com/phantasyreign/626591573843607552/tutorial-how-to-add-cursor-into-your-blog
+*/
+
+/* end cursor info! */
