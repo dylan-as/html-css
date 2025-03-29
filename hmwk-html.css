@@ -18,12 +18,19 @@ nav {
 }
 
 nav > ul {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
 }
 
 nav > ul > li {
 
+}
+
+nav > ul > li > a, a:visited {
+    color: #1B2021;
+    text-decoration: none;
 }
 
 #heading {
@@ -40,6 +47,13 @@ nav > ul > li {
 
 .description > ul {
 
+}
+
+.description > ul > li > a, a:visited {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    color:#1B2021
 }
 
 
